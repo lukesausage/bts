@@ -1,0 +1,15 @@
+.TH bts-find 1 "8 April 2016" "version 0.1"
+.SH NAME
+bts-find, information finder for bts repository
+.SH SYNOPSIS
+bts-find
+bts-find [bugname]
+.SH OPTIONS
+b - prints amount of bugs in current bts repository
+.SH DESCRIPTION
+bts-find shows all bugs information. If given a bugname it will print just that bugs information.
+If given the -b option it will display number of bugs in current directory
+.SH AUTHOR
+Luke Sanger<thelukesausage@gmail.com>
+.SH "SEE ALSO"
+.BR git(1)

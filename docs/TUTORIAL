@@ -1,0 +1,40 @@
+To initialize a bts directory in the current file you need to write your name, email and your command-line text editor
+of choice so for example
+
+   bts-init "Luke Sanger" thelukesausage@gmail.com vi
+
+will initialize a bts repository in the current folder with Luke Sanger as my name, thelukesausage@gmail.com as my 
+email and vi as my text editor.
+
+To make a new bug in the current bts repository you need to write the bugname, git commit-version and the source file
+of the bug then you will be asked to enter the description through the editor of your choice so for example
+
+   bts-new Redduck g5Dg5 duck.cpp
+
+   This a bug that causes the duck's colour to be red
+   ~
+   ~
+   ~
+   ~
+   ~
+   ~
+   ~
+   -- INSERT --
+
+To find number of bugs in current bts repository type
+
+   bts-find -b
+
+and press enter
+
+To show all bug information type
+
+   bts-find
+
+To show a specific bug's information type bts-find followed by bugname like this
+
+   bts-find Redduck
+
+To change bug status to fixed type bts-change-fix followed by bugname like this
+
+   bts-change-fix Redduck

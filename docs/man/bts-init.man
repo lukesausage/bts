@@ -1,0 +1,12 @@
+.TH bts-init 1 "7 April 2016" "version 0.1"
+.SH NAME
+bts-init, the initalizer for a new bts repository
+.SH SYNOPSIS
+bts-init [username] [email] [command-line text editor]
+.SH DESCRIPTION
+bts-init is the initalizer for a bts repository in the current directory.
+bts is currently designed for single-user bug tracking but I am planning to add multi-user support
+.SH AUTHOR
+Luke Sanger<thelukesausage@gmail.com>
+.SH "SEE ALSO"
+.BR git(1)

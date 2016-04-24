@@ -1,0 +1,11 @@
+.TH bts-new 1 "7 April 2016" "version 0.1"
+.SH NAME
+bts-new, makes new bug in bts repository
+.SH SYNOPSIS
+bts-new [bugname] [git commit-version] [bug source fil]
+.SH DESCRIPTION
+bts-new creates a new bug in current bts repository.
+.SH AUTHOR
+Luke Sanger<thelukesausage@gmail.com>
+.SH "SEE ALSO"
+.BR git(1)

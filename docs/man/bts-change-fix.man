@@ -1,0 +1,11 @@
+.TH bts-change-fix 1 "8 April 2016" "version 0.1"
+.SH NAME
+bts-change-fix, 
+.SH SYNOPSIS
+bts-change-fix [bugname]
+.SH DESCRIPTION
+bts-change-fix changes bug status to fixed
+.SH AUTHOR
+Luke Sanger<thelukesausage@gmail.com>
+.SH "SEE ALSO"
+.BR git(1)

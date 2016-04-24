@@ -1,0 +1,11 @@
+.TH bts-help 1 "8 April 2016" "version 0.1"
+.SH NAME
+bts-find, documentation for bts
+.SH SYNOPSIS
+bts-help
+.SH DESCRIPTION
+bts-help shows help information for bts 
+.SH AUTHOR
+Luke Sanger<thelukesausage@gmail.com>
+.SH "SEE ALSO"
+.BR git(1)
